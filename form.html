@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<h1>Form</h1>
+<form>
+<label>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0259022289133!2d-73.98969488469548!3d40.695427179333706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a6c47643b%3A0x284552dca0b97d69!2sNew%20York%20City%20College%20of%20Technology!5e0!3m2!1sen!2sus!4v1647905877476!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	First Name<br>
+	<input type="text" name="firstName" placeholder="Bob" required>
+</label>
+<br>
+<label>
+	Last Name<br>
+	<input type="text" name="ln" placeholder="Garcia" required>
+</label>
+<br>
+<label>
+	Email<br>
+	<input type="email" name="em" placeholder="bob@gmail.com" required>
+</label>
+<br>
+<label>
+	Password<br>
+	<input type="password" name="pw" required>
+</label>
+<br>
+<label>
+	Tel<br>
+	<input type="tel" name="tl" placeholder="212-123-4567" required>
+</label>
+<br>
+<p>Gender</p>
+<label>
+	<input type="radio" name="gdr" value="m" required> Male
+</label>
+<label>
+	<input type="radio" name="gdr" value="f" required> Female
+</label>
+<label>
+	<input type="radio" name="gdr" value="n" required> Non-Binary
+</label>
+<br>
+<p>Reply Through</p>
+<label>
+	<input type="checkbox" name="rpy" value="tel" required> Phone
+</label>
+<label>
+	<input type="checkbox" name="rpy" value="email" required> E mail
+</label>
+<br>
+<label>
+	State<br>
+	<select name="st" required>
+		<option value="ny">New York</option>
+		<option value="nj">New Jersey</option>
+		<option value="ct">Connecticut</option>
+	</select>
+</label>
+<br>
+<label>
+	Message<br>
+	<textarea name="message" placeholder="Message..."></textarea>
+</label>
+<br>
+<input type="submit" value="Post">
+</form>
+</body>
+</html>
